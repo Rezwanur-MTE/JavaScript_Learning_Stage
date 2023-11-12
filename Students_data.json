@@ -1,0 +1,48 @@
+{"Students": [
+
+
+    {
+        "name":"MRR Fahim",
+        "middlename":null,
+        "age": 31,
+        "cgpa": 3.55,
+        "inRegistered": true,
+        "language":["Bangla","English","Hindi"],
+        "friends":[
+            {
+                "name":"Juel",
+                "age": 23
+            },
+            {
+                "name": "Rahul",
+                "age": 22
+            }
+                  ]
+    
+    
+     },
+    
+     {
+        "name":"S.M Jaoyad",
+        "middlename":null,
+        "age": 27,
+        "cgpa": 3.45,
+        "inRegistered": false,
+        "language":["Bangla","English","Hindi","Spanish"],
+        "friends":[
+            {
+                "name":"Joshim",
+                "age": 24
+            },
+            {
+                "name": "Jahir",
+                "age": 25
+            }
+                  ]
+    
+    
+     } 
+    
+]
+}
+

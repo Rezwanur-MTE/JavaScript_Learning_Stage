@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="anime.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <button class="a myButton">a</button>
+    <button class="b myButton">b</button>
+    <button class="c myButton">c</button> <br>
+
+    <textarea name="" id="txtera" cols="30" rows="10"></textarea>
+    <p> Write your comment</p>
+    <br>
+    <label for="name">Name : 
+        <input type="text" name="name" class="name-input" id="name-input"/>
+    </label>     </br>
+   <div>
+    <h2> Programming Language</h2>
+    
+    <label for="program">
+        <input type="checkbox" name="program" id="" value="C" class=""/>
+    C</label> </br>
+    <label for="program">
+        <input type="checkbox" name="program" id="" value="Java" class=""/>
+    Java</label>
+   </div>
+
+</br>
+    
+   <label for="department">Department:</label>
+   <select name="department" id="department">
+    <option value="cse">CSE</option>
+    <option value="eee">EEE</option>
+    <option value="me">ME</option>
+    <option value="mte">MTE</option>
+   </select>
+</br>
+<form action="">
+    <label for="name">Name:         
+     <input type="text" id="name" name="name" required autofocus/>
+    </label> 
+
+    <label for="email">Email:        
+        <input type="email" id="email" name="email" required/>
+       </label> 
+
+       <label for="password">Password:
+        <input type="password" id="password" name="password"  required minlength="4" maxlength="8"/>
+       </label> <br>
+       <input type="submit" value="signup"/>
+</form>
+</br>
+  <video width="400" id="CarVid" controls >
+    <source src="video/In My Memory   FiveM.mp4" type="video/mp4">
+   your browser doesnot support HTML elements
+  </video>
+  <details>
+    <summary>The World at war</summary>
+    <p>For thousands of years ,<br>
+         there is a quarrel dispute among people. <br>
+    Now world is suffering from Islamofibic fever. 
+    <br> The anti-Islamic mindset is resposible for thousands of death.
+    </p>
+  </details>
+  <div id="mouse" class="divide">
+    <p>This is mouseEvent Div</p>
+
+    
+   <button class="btn">btn1</button>
+   <button class="btn">btn2</button>
+   <button class="btn">btn3</button>
+
+  </div>
+
+  <label>Hey:  <input type="text" value="" id="yoyo"> </label>
+  <p id="clipboardtest">Wait.....</p>
+
+  <div id="dragdude" class="divdrag">
+      
+  </div>  <br>
+  <p id="drag1" draggable="true"> Drag Me IN.</p>
+ 
+  <h1>Browser Object Model</h1>
+  <div class="location-div">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </div>
+<button id="visit1"> Blocke Shop</button>
+<button id="visit2"> Guessing Game</button>
+<button class="Save-btn">Save</button>
+<p class="message">Save File.</p>
+
+
+   <!--<script src="PracticePhase4.js"></script>
+  
+    <script src="practicePhase4_2.js"></script>  
+
+    <script src="Practice_ES6.js"></script>
+
+    <script>
+      function display(){console.log("This is display function ");}
+      //doing the same with arrow funcion 
+
+      const displayarrow=()=>{
+        console.log(" This is from displayarrow function.");
+      }
+
+      display();
+      displayarrow();
+
+      function messagebro(){
+        return " Hi from message bro";
+      }
+
+      var messagebro2 =()=> {
+        return " Hola from message bro 2";
+      }
+      console.log(messagebro());
+      console.log(messagebro2());
+
+      function add2(num1, num2){
+      return num1+num2;
+      }
+
+     console.log(add2(10,20));
+
+     var add3= (num1,num2) =>{
+        return num1+num2;
+     }
+     console.log(add3(5,7));
+
+     // declaring array of objects
+     var students5=[
+      {
+        id: 101,
+        name: "Fahim",
+        age: 24,
+        gpa: 3.5
+      },
+      {
+        id: 102,
+        name: "Saad",
+        age: 24,
+        gpa: 2.5
+      },
+      {
+        id: 103,
+        name: "Jaoyad",
+        age: 24,
+        gpa: 3.9
+      },
+      {
+        id: 104,
+        name: "Rakib",
+        age: 24,
+        gpa: 2.75
+      }
+     ]
+
+     //console.log(students5);
+     function studentset1(){
+      return students5.filter(function(x){
+         return x.gpa>3
+      }).map(function(y){
+           return y.name;
+      });
+
+     }
+     console.log(studentset1());
+      
+     var studentset=()=>{
+         return students5.filter((x)=> x.gpa>3).map((y)=>y.name);
+     }
+     
+      let numbers6=[5, 55, 14, 5, 78, 22];
+      let firstevenNumber= numbers6.find(x=> x%2==0);
+      console.log(firstevenNumber);
+      
+      // string method
+      const messageyo= "Today is Friday";
+      console.log(messageyo.startsWith("today",0));
+      
+      console.log(messageyo.endsWith("Friday"));
+      console.log(messageyo.includes("friday"));
+
+
+
+    </script>
+
+    <button id="hmm">Click Here</button>
+
+
+    <script src="ES6_modules.js" type="module"></script>
+    <script src="Callback_test.js"></script> 
+    <script src="xhr.js"></script>
+    <script src="jquery.js"></script>
+    <script src="localStorage.js"></script>-->
+    <Script src="JsonTest.js"></Script>
+  
+</body>
+</html>
